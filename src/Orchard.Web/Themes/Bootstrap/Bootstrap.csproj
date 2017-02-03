@@ -196,9 +196,6 @@
     <Compile Include="ViewModels\ThemeSettingsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Admin\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -342,6 +339,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\CommentGravatar.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Bootstrap\Admin\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

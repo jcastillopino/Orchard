@@ -3,7 +3,7 @@
     select { width: 150px; }
 </style>
 
-@{ Layout.Title = string.Format("Bootstrap » {0}", T("Swatch").ToString()); }
+@{Layout.Title = string.Format("Bootstrap » {0}", T("Swatch").ToString());}
 
 @using (Html.BeginFormAntiForgeryPost()) {
     Html.ValidationSummary();

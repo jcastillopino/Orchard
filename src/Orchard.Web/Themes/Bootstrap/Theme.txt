@@ -1,4 +1,5 @@
 Name: Bootstrap
+AntiForgery: enabled
 Author: Wiggleware
 Website: http://wiggleware.com
 Description: Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.
